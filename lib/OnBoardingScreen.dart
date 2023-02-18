@@ -51,7 +51,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                     child: Text('skip')),
 
                 // Dot indicator
-                SmoothPageIndicator(controller: _controller, count: 3),
+                SmoothPageIndicator(controller: _controller, effect: WormEffect(), count: 3),
 
                 // next or done
                 onLastPage
